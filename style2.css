@@ -1,0 +1,191 @@
+* {
+  margin:0;
+}
+
+
+p {font-family: verdana; }
+
+ul{list-style-type: none; background-color: black;}
+ 
+ div{ font-family: verdana;}
+ 
+ .header{display:flex;justify-content:space-between;background-color: black; }
+ .header img{max-width:400px;padding:0px 0px 20px 35px;}
+  .par7 {background-color: black; font-family: verdana; font-size: 40px;color: palegreen;text-align:center;padding-top:20px;}
+  .par5 {background-color: black; font-family: verdana; font-size: 60px;color: palegreen ;text-align:center;padding: 30px 0px 30px 0px;}
+  .par{background-color: white;font-family: verdana;font-size: 15px; display:flex;gap:10px;padding:30px 0px 30px 40px;}
+  .par a {color: black;text-decoration:none; }
+  .par a:hover  {color: lightgreen;}
+  .par3{background-color: white;text-align: center;font-family: verdana;font-size: 50px; padding: 15px;}
+  .par4{font-family: verdana; font-size: 70px;color: black; padding:100px; background-color:#FFF;text-align: center;height:400px;background-size:cover; background-image: url(images/163.png);}
+  .icon2 {display:flex; justify-content:flex-end; align-items:center;padding: 10px 30px 20px 10px;background-color:black;color: white;}
+  .icon2 img {padding:5px; width:38px;background-color: black;}
+  .price{font-family: verdana; font-size: 15px; color: white;padding: 60px 110px 80px 0px; background-color: black; }
+  .price p {font-size: 20px; color: white;padding: 20px 0px 20px 0px;}
+  .sector{ display:flex;justify-content: space-around;background-color: lightblue;}
+  .lowcontacts {font-family: verdana; font-size: 18px; color: white; text-align: right; background-color: black; padding: 20px 30px 0px 0px;}		
+  .tab img {width:200px;background-color: lightblue;} 
+  .tab p {width:200px;padding: 20px; text-align: center;}
+  .tab h4 {text-align: center;font-family: verdana;background-color: lightblue; font-size: 25px; color: DarkSlateGray;padding: 0px;background-color: lightblue;}
+  .icon img {padding:5px; width:40px;}
+  .icon {display:flex; justify-content:flex-end; align-items:center;padding: 20px 35px 0px 0px;background-color: black;color: white;}
+  .par8about {background-color: lightblue; display:flex;font-family: verdana; font-size: 20px;color: DarkSlateGray;text-align:left;
+     padding: 0px 300px 50px 50px}
+	.par8about img{width:500px;padding: 0px 0px 0px 80px}
+  
+	.zak{font-family: verdana;font-size: 20px;text-align: center;background-color: black; }
+    .zak a {color:black;text-decoration:none;  padding: 10px; border-radius: 20px; background-color:palegreen;}
+    .zak a:hover  {color: black; background-color:white;}
+
+ .hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 3px solid palegreen;
+    width: 300px;}
+
+  .icon3 {display:flex; justify-content:center; align-items:center;padding: 20px 30px 20px 10px;}
+  .icon3 img {padding:5px;width:50px; }
+  
+  .bnotes{color: white;font-family: verdana;max-width:600px; text-align: left;background:black;font-size: 20px; padding: 0px;}
+ 
+  .tab2 img {width:300px;background-color: black;} 
+  .tab2{display:flex;justify-content: center; align-items:center;} 
+  .bigsector {background-color: black;}
+  .tab2 p {color: palegreen; 
+   font-family: verdana;
+   width:600px;
+   background-color: black;
+   font-size:30px;}
+ 
+ 
+ 
+
+
+ * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  
+}
+
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 40px 2px ;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+h2 {
+  color: palegreen;
+  font-family: verdana;
+  text-align: center;
+  font-size: 40px;
+  background-color: black;
+  padding: 30px;
+  }
+
+
+
+.container {background-color: black; padding: 0px 300px 20px 300px; font-family: verdana;color: white;font-size: 15px;}
+
+/* Стиль ввода */
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid lightblue;
+  border-radius: 13px;
+  box-sizing: border-box;
+  
+}
+
+/* Стиль кнопки "Отправить" */
+input[type=submit] {
+  width: 100%;
+  background-color: slategrey;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+/* Добавить цвет фона для кнопки отправки при наведении курсора мыши */
+input[type=submit]:hover {
+  background-color: palegreen;
+}

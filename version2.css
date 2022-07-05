@@ -1,0 +1,247 @@
+* {
+  margin:0;
+}
+h1 {
+  color: white;
+  font-family: verdana;
+  text-align: left;
+  font-size: 30px;
+  background-color: lightblue;
+  padding: 20px 0px 20px 50px
+  }
+
+h3 {
+  color: grey;
+  font-family: verdana;
+  text-align: center;
+  font-size: 20px;
+  background-color: lightblue;
+  padding:30px 0px 60px 0px;
+  }
+
+p {font-family: verdana;color: DarkSlateGray;}
+
+ul{list-style-type: none; background-color: lightblue;}
+ 
+ div{ font-family: verdana;}
+ 
+ .header {display:flex; justify-content:space-between;background-color: lightblue;}
+ .header img {max-width:100px;}
+  .par7 {background-color: lightblue; font-family: verdana; font-size: 40px;color: DarkSlateGray;text-align:center;padding-top:20px;}
+  .par5 {background-color: black; font-family: verdana; font-size: 60px;color: yellowgreen;text-align:center;}
+  .par{background-color: white;font-family: verdana;font-size: 15px; display:flex;gap:10px;padding:30px 0px 30px 40px;}
+  .par a {color: DarkSlateGray;text-decoration:none; }
+  .par a:hover  {color: #3399FF;}
+  .par3{background-color: white;text-align: center;font-family: verdana;font-size: 50px; padding: 15px;}
+  .par4{font-family: verdana; font-size: 70px;color: grey; padding: 150px;
+   background-color:#FFF;text-align: center;height:500px; background-image: url(images/120.png);background-size:cover; }
+ 
+  .icon2 {display:flex; justify-content:flex-end; align-items:center;padding: 0px 30px 20px 10px;background-color:lightblue ;}
+  .icon2 img {padding:5px; width:38px;background-color: lightblue;}
+  .price{font-family: verdana; font-size: 15px; color: DarkSlateGray;padding: 60px 110px 80px 0px; background-color: lightblue; }
+  .sector{ display:flex;justify-content: space-around;background-color: lightblue;}
+  .lowcontacts {font-family: verdana; font-size: 18px; color: DarkSlateGray; text-align: right; background-color: lightblue; padding: 5px 30px 0px 0px;}		
+  .tab img {width:200px;background-color: lightblue;} 
+  .tab{display:flex;justify-content: center;flex-direction: column; align-items:center;}
+  .tab p {max-width:400px;padding: 20px; text-align: left;}
+  .tab h4 {text-align: center;font-family: verdana;background-color: lightblue; font-size: 25px; color: DarkSlateGray;padding: 0px;background-color: lightblue;}
+  .icon img {padding:5px; width:40px;display:flex; justify-content:center;}
+  .icon {display:flex; justify-content:flex-end; align-items:center;padding: 10px 30px 0px 0px;background-color: lightblue;}
+  .par8about {background-color: lightblue; display:flex;font-family: verdana; font-size: 20px;color: DarkSlateGray;text-align:left;
+     padding: 0px 300px 50px 50px;}
+	.par8about img{max-width:500px;padding: 0px 0px 0px 80px}
+  
+	.zak{font-family: verdana;font-size: 20px;text-align: center;background-color: lightblue; padding: 0px 0px 50px 0px;}
+    .zak a {color:white;text-decoration:none;  padding: 10px; border-radius: 20px; background-color:DarkSlateGray; }
+    .zak a:hover  {color: DarkSlateGray;background-color:white;}
+    .notes {padding: 20px;}
+
+
+  .bnotes{color: white;font-family: verdana;max-width:600px; text-align: left;background:black;font-size: 20px; padding: 0px;}
+ 
+  .tab2 img {width:300px;background-color: black;} 
+  .tab2  {display:flex;justify-content: center; align-items:center;} 
+  .bigsector {background-color: black; }
+  .bigsector h3 {
+  color: yellowgreen;
+  font-family: verdana;
+  text-align: center;
+  background-color: black;
+  font-size:60px;}
+  
+  
+ 
+ 
+ h5 {
+  color: white;
+  font-family: verdana;
+  text-align: left;
+  padding:30px 0px 10px 0px;
+  font-size: 40px;
+
+  }
+  
+   
+   
+   
+  .bnotes7{color: white;font-family: verdana;max-width:600px; text-align: left;background:black;font-size: 20px; padding-left: 160px;}
+ 
+  .tab7 img {width:400px;background-color: black;} 
+  .tab7  {display:flex;justify-content: center; flex-direction:column; align-items:center;} 
+  
+  
+  h6 {
+  color: white;
+  font-family: verdana;
+  text-align: left;
+  padding:30px 0px 10px 0px;
+  font-size: 40px;
+padding-left: 160px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  
+}
+
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 40px 2px ;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+h2 {
+  color: white;
+  font-family: verdana;
+  text-align: center;
+  font-size: 40px;
+  background-color: lightblue;
+  padding: 30px;
+  }
+
+
+
+.container {background-color: lightblue; padding: 0px 300px 20px 300px; font-family: verdana;color: DarkSlateGray;font-size: 15px;}
+
+/* Стиль ввода */
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid lightblue;
+  border-radius: 13px;
+  box-sizing: border-box;
+  
+}
+
+/* Стиль кнопки "Отправить" */
+input[type=submit] {
+  width: 100%;
+  background-color: DarkSlateGray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+/* Добавить цвет фона для кнопки отправки при наведении курсора мыши */
+input[type=submit]:hover {
+  background-color: #006666;
+}

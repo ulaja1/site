@@ -1,0 +1,96 @@
+*{margin: 0;}
+div{ font-family: verdana;}
+
+header{background:black;}
+.menu{display: flex; list-style:none; justify-content:right;color:white;}
+.menu ul {padding:10px;list-style-type:none;display:inline-block;}
+.menu li{padding:10px;list-style-type:none;}
+.menu a {color:white; text-decoration:none;}
+.menu a:hover {color:yellowgreen;}
+
+.menu ul>li {display:block;position:absolute;}
+.menu>ul>li>ul {display:none;}
+.menu>ul>li>ul>li
+{list-style-type:none;}
+.menu>ul>li>ul>li:hover
+{list-style-type:disc}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  color: yellowgreen;
+  font-family: verdana;
+  text-align: left;
+  padding:20px 0px 20px 100px;
+  font-size: 40px;
+  }
+  
+   .about {display:flex;font-family: verdana; font-size: 20px;color: grey; text-align:left;
+     padding: 50px 200px 50px 100px;}
+	.about img{width:500px;padding: 10px 0px 50px 100px;}
+	
+	.activity{background:black;}
+	
+	
+	h2 {
+  color: yellowgreen;
+  font-family: verdana;
+  text-align: left;
+  padding:20px 0px 20px 100px;
+  font-size: 40px;
+  }
+  
+  .text{color:white; text-align: left;
+  padding:20px 0px 20px 105px;}
+  .text ul {margin:10px;}
+  
+  h3 {
+  color: yellowgreen;
+  font-family: verdana;
+  text-align: left;
+  padding:20px 0px 20px 100px;
+  font-size: 40px;
+  }
+  
+  h4 {
+  color: lightskyblue;
+  font-family: verdana;
+  text-align: center;
+  padding:20px 0px 20px 0px;
+  font-size: 40px;
+  background:black;
+  }
+  
+  
+  .sector{ display:flex;justify-content: space-around;}
+  .team img{border-radius: 100px;margin:30px 200px;}
+  .team p {color: grey;font-family: verdana;width:200px;padding:20px ;margin:30px 200px; text-align: center;}
+  .team2 p {color: grey;font-family: verdana;width:200px; padding: 20px ; text-align: center; margin:30px 200px;}
+  .team2 img{border-radius: 100px;margin:30px 200px;}
+  .contacts{background:black;color: white;}
+  .contacts ul{list-style:none;padding:20px 0px 40px 100px;}
+  .bg{background-image: url(images/120.png);background-size:cover; height:500px;font-family: verdana; font-size: 50px;color: grey; text-align:center;
+  display:flex;justify-content: space-around;}
+  
+  .table{border: 2px solid yellowgreen;border-radius: 20px 20px 20px 20px; display:flex;}
+
+  .bnotes{color: grey;font-family: verdana;width:400px;padding:20px 20px 20px 100px; text-align: left; }
+  .sector2 {display:flex;justify-content: center;background:black;}
+  .tab2 img {width:200px;background-color: black;padding:20px 50px 50px 120px;} 
+  .bigsector {display:flex;justify-content: center;background-color: black;}

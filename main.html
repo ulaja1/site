@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel ="stylesheet" href= "style.css"/>
+<title>главная</title>
+</head>
+<body>
+
+<div>
+	<p class="icon">
+		<a href="https://t.me/julisa6/">
+			<img src="images/tg3.png" width="35px"/>
+		</a> 
+		<a href="https://wa.me/xxx/">
+			<img src="images/wp.png" width="35px"/>
+		</a>
+		contacts 8-xxx-xx-xx
+	</p>
+	<p class="icon2"><img src="images/mail4.png" width="30px"/> e-mail:xxxx@yandex.com </p>
+</div>
+
+
+
+<div class="par4">
+<p>Ландшафтный дизайн и проектирование</p>
+</div>
+
+
+<div>
+		<p class="par5">Our work </p>
+		
+<div class="sector">
+<div class="tab">
+		<img src="images/bro1.png"/>
+		<h4> branding</h4>
+		<ul class ="notes">
+		<li>&raquo; Pre-design concept development</li>
+        <li>&raquo; Development of design </li>
+        <li>&raquo; Organization and management </li>
+        <li>&raquo; Selection and coordination </li>
+		</ul>
+		
+</div>
+<div class="tab">
+		<img src="images/bro2.png"/>
+		<h4> photo</h4>
+		<p> Authorization and technical supervision of construction, installation and commissioning work</p> 
+</div>
+</div>
+
+
+<p class="par3">Gallery</p>
+</div>
+
+
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    
+   <img src="images/2f.png" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+   
+   <img src="images/4f.png" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+   
+    <img src="images/3f.png" style="width:100%">
+   
+  </div>
+  
+   <div class="mySlides fade">
+    
+   <img src="images/5f.jpg" style="width:100%">
+    
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+<script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div>
+
+ <p class="par7">Прайс</p>
+  </div>
+
+
+ 
+ <ul>
+ <div class="price"> 
+<li>Обыкновенный (садово-парковый)	180 руб/м2</li>
+<li>Партерный	220 руб/м2 </li>
+<li>Луговой (с цветами и луговыми злаками; мавританский)	200 руб/м2</li>
+<li>Специальный (на склонах, на газонных решетках), м2	от 270 руб/м2</li>
+<li>Рулонный газон	230 руб/м2 </li>
+<li>Спортивный газон	от 250 руб/м2 </li>
+<li>Посев травосмеси без подготовки основания	40 руб/м2 </li>
+<li>Подготовка основания 10-20 см	140 руб/м2
+<li>Подготовка основания с использованием сетки от кротов	от 200 руб/м </li>
+</div>
+</ul>
+<div/>
+
+
+<div class="zak">
+<a href="order.html">оставить заявку &rarr;</a>
+</div>
+
+
+
+
+
+
+<div>
+ <p class="lowcontacts">&#128241; contacts:8-xxx-xx-xx<p/>
+<p class="icon2"><img src="images/mail4.png" width="25px"/>e-mail:xxxx@yandex.com</p>
+</div>
+
+
+
+<div>
+<ul class ="par">
+<li><a href="main.html">главная</a></li>
+<li><a href="order.html">заказать</a></li>
+<li><a href="about.html">about</a></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
